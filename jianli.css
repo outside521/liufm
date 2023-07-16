@@ -1,0 +1,261 @@
+video {
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    min-width: 100%;
+    min-height: 100%;
+    height: auto;
+    width: auto;
+    /*加滤镜*/
+    /* filter: blur(15px); //背景模糊设置 */
+    /* -webkit-filter: grayscale(20%);  */
+    /*filter:grayscale(100%); //背景灰度设置*/
+    z-index: -11;
+}
+
+.img1 {
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    min-width: 100%;
+    min-height: 100%;
+    height: 100%;
+    width: 100%;
+    /*加滤镜*/
+    /* filter: blur(15px); //背景模糊设置 */
+    /* -webkit-filter: grayscale(20%);  */
+    /*filter:grayscale(100%); //背景灰度设置*/
+    z-index: -11
+}
+
+.A {
+    /* border: 5px solid blue; */
+    height: 1400px;
+    width: 1030px;
+    /* background-color: snow; */
+    /* display: flex; */
+    backdrop-filter: blur(10px);
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.A0 {
+    /* border: 2px solid blue; */
+    height: 800px;
+    width: 900px;
+}
+
+.S {
+    /* border: 2px solid green; */
+    width: 600px;
+    heigh: 1200px;
+    margin-left: 20px;
+    display: inline-block;
+}
+
+.A1 {
+    /* border: 2px solid yellow; */
+    height: 400px;
+    width: 600px;
+    margin-top: 10px;
+}
+
+.A1_1 {
+    /* border: 2px solid blue; */
+    height: 60px;
+    width: 200px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.A1_2 {
+    /* border: 0.125rem solid red; */
+    height: 50px;
+    width: 550px;
+    margin-top: 10px;
+}
+
+.A1_3 {
+    /* border:2px solid green; */
+    height: 200px;
+    width: 600px;
+    margin-top: 10px;
+}
+
+.A2 {
+    /* border: 2px solid blue; */
+    height: 200px;
+    width: 600px;
+    margin-top: 10px;
+}
+
+.A3 {
+    /* border: 2px solid blue; */
+    height: 300px;
+    width: 600px;
+    margin-top: 10px;
+}
+
+.A4 {
+    /* border: 2px solid blue; */
+    height: 300px;
+    width: 600px;
+    margin-top: 10px;
+}
+
+.B {
+    /* border: 0.125rem solid blue; */
+    height: 6.25rem;
+    width: 63.375rem;
+    /* backdrop-filter: blur(15px); */
+}
+
+.C {
+    /* border: 0.125rem solid blue; */
+    height: 90px;
+    width: 12.5rem;
+    background-color: cornflowerblue;
+    display: inline-block;
+}
+
+.D {
+    /* border: 6px solid green; */
+    width: 350px;
+    height: auto;
+    border-right: 5px solid black;
+    display: inline-block;
+    text-align: center;
+}
+
+.im {
+    border: 10px solid green;
+}
+
+.D1 {
+    /* border: 2px solid red; */
+    width: auto;
+    height: 413px;
+    width: 295;
+    display: inline-block;
+}
+
+.D2 {
+    /* border: 2px solid green; */
+    height: 200px;
+    width: 250px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.D2 a {
+    -webkit-animation: shining 0.3s alternate infinite;
+    animation: shining 0.5s alternate infinite;
+}
+
+.D3 {
+    /* border: 2px solid green; */
+    height: 350px;
+    width: 250px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.D4 {
+    /* border: 2px solid green; */
+    height: 200px;
+    width: 250px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.text {
+    letter-spacing: 30px;
+    font-size: 80px;
+    font-family: STHupo;
+    background-image: -webkit-linear-gradient(left, #147B96, #E6D205 25%, #147B96 50%, #E6D205 75%, #147B96);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-background-size: 200% 100%;
+    -webkit-animation: maskedAnimation 0.5s infinite linear;
+}
+
+@keyframes maskedAnimation {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: -100% 0;
+    }
+}
+
+.A1_1 a {
+    color: azure;
+    font-size: 30px;
+    font-family: STZhongsong;
+    -webkit-animation: shining 0.3s alternate infinite;
+    animation: shining 0.8s alternate infinite;
+}
+
+@-webkit-keyframes shining {
+    from {
+        text-shadow: 0 0 10px lightblue, 0 0 20px lightcoral, 0 0 30px lightcoral, 0 0 40px red, 0 0 50px skyblue, 0 0 60px skyblue;
+    }
+    to {
+        text-shadow: 0 0 5px lightgreen, 0 0 10px lightgreen, 0 0 15px lightblue, 0 0 20px skyblue, 0 0 25px skyblue, 0 0 30px skyblue;
+    }
+}
+
+.i1 {
+    height: 1.875rem;
+    width: 1.875rem;
+}
+
+.b1 {
+    color: azure;
+    font-size: 20px;
+    margin-left: 50px;
+    font-family: Microsoft Yahei;
+}
+
+h3 {
+    color: azure;
+    font-family: STSong;
+    margin-top: 30px;
+}
+
+h5 {
+    color: cyan;
+    font-size: 25px;
+    font-family: STZhongsong;
+    margin-top: 2px;
+}
+
+h6 {
+    color: azure;
+    font-size: 20px;
+    margin-top: 5px;
+    font-family: SimSun;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.a1 {
+    color: red;
+}
+
+a:hover {
+    color: chartreuse;
+}
+
+dt {
+    font-size: 20px;
+    color: azure;
+}
+
+dd {
+    font-size: 20px;
+    color: aliceblue;
+}
